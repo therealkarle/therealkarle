@@ -15,6 +15,7 @@ Willkommen! Dieses Repository zeigt meine datenschutzfreundlichen Ernährungs- u
 |-----|-------|----------|
 | **[Fuel Lens](#fuel-lens)** | Ernährungsanalyse-Tool für das Verständnis von Ernährungsmustern, Trends und Biometrie | https://fuellens.vercel.app/?view=dashboard |
 | **[Fuel Calc](#fuel-calc)** | Glukose:Fruktose-Verhältnis-Rechner für die Optimierung der Ernährung während Ausdauer Aktivitäten | https://fuelcalc-glucosefructos-ratio-calulator.lovable.app/ |
+| **[Skinfold Caliper Body Fat Calculator](#skinfold-caliper-body-fat-calculator)** | Hautfalten-Rechner für Körperfett-Schätzungen mit Body Fat Calliper | https://skinfold-caliper-body-fat-calulator.vercel.app/ |
 
 ---
 
@@ -254,6 +255,27 @@ Das Glukose-zu-Fruktose-Verhältnis ist entscheidend für die intestinale Absorp
   - Erster Download lädt OCR-Engine einmalig herunter
 - **Funktioniert mit jedem Nährstoff-Tracker**, der Zuckeraufschlüsselung bietet
 - **Behandelt Randfälle**, wenn Glukose oder Fruktose null ist
+
+---
+
+## [Skinfold Caliper Body Fat Calculator](https://skinfold-caliper-body-fat-calulator.vercel.app/)
+
+**Datenschutzfreundlicher Hautfalten-Rechner für Körperfett-Schätzungen**
+
+Geben Sie Caliper-Hautfaltenmessungen und grundlegende anthropometrische Daten ein, um Körperfett-Schätzungen mit etablierten Methoden zu berechnen, darunter Jackson-Pollock, Durnin-Womersley und Parrillo. Die App berechnet außerdem BMI, Taille-Hüfte-Verhältnis und Taille-Größe-Verhältnis.
+
+### Hauptfunktionen
+
+- Neun Hautfalten-Messstellen mit automatisch berechneten methodenspezifischen Summen
+- Körperfett-Schätzungen für männliche/weibliche und geschlechtsunabhängige Methoden
+- BMI, WHR und WHtR aus Umfangs- und Körpermaßen
+- Messhistorie, Trends, Einstellungen sowie wiederverwendbare Kopier- und Importvorlagen
+- Fuel-Lens-Integration: Lokale biometrische Messwerte an Fuel Lens übertragen oder Messwerte aus Fuel Lens mit einer Prüfung vor dem Speichern in Skinfold importieren
+- Metrische und imperiale Anzeigeeinheiten
+- Lokale Speicherung im Browser mit ausdrücklicher Zustimmung sowie deutsch/englische Oberfläche
+- Kein Konto erforderlich; Berechnungen laufen lokal im Browser
+
+*Die Ergebnisse sind Schätzungen für das persönliche Tracking und kein medizinischer Rat.*
 
 ---
 

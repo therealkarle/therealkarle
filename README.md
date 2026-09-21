@@ -14,6 +14,7 @@
 |-----|---------|----------|
 | **[Fuel Lens](#fuel-lens)** | Nutrition analytics workspace for understanding dietary patterns, trends, and biometrics | https://fuellens.vercel.app/?view=dashboard |
 | **[Fuel Calc](#fuel-calc)** | Glucose:Fructose ratio calculator for endurance sports fueling optimization | https://fuelcalc-glucosefructos-ratio-calulator.lovable.app/ |
+| **[Skinfold Caliper Body Fat Calculator](#skinfold-caliper-body-fat-calculator)** | Skinfold measurement calculator for body-fat estimates with Body Fat Calliper | https://skinfold-caliper-body-fat-calulator.vercel.app/ |
 
 ---
 
@@ -253,6 +254,27 @@ The glucose-to-fructose ratio is crucial for intestinal absorption:
   - First scan downloads OCR engine once
 - **Works with any nutrition tracker** that provides sugar breakdown
 - **Handles edge cases** when glucose or fructose is zero
+
+---
+
+## [Skinfold Caliper Body Fat Calculator](https://skinfold-caliper-body-fat-calulator.vercel.app/)
+
+**Privacy-focused skinfold measurement calculator for body-fat estimates**
+
+Enter caliper skinfold measurements and basic anthropometric data to calculate body-fat estimates with established methods, including Jackson-Pollock, Durnin-Womersley, and Parrillo. The app also calculates BMI, waist-to-hip ratio, and waist-to-height ratio.
+
+### Key Features
+
+- Nine skinfold measurement sites with automatic method-specific sums
+- Body-fat estimates for male/female and gender-independent methods
+- BMI, WHR, and WHtR calculations from circumference and body measurements
+- Measurement history, trends, settings, and reusable copy/import templates
+- Fuel Lens integration: select local biometric measurements for transfer to Fuel Lens or import Fuel Lens measurements into Skinfold with a review step before saving
+- Metric and imperial display units
+- Local browser storage with explicit consent and bilingual German/English UI
+- No account required; calculations run locally in the browser
+
+*Results are estimates for personal tracking and are not medical advice.*
 
 ---
 
