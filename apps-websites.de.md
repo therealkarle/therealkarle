@@ -25,6 +25,7 @@ Willkommen! Dieses Repository zeigt meine datenschutzfreundlichen Ernährungs- u
 | **[TourTimeCalulator](#tourtlocalulator)** | Tourzeit-Vorhersagen mit Strava-API-Integration | https://github.com/therealkarle/TourTimeCalulator |
 | **[Strava2Garmin](#strava2garmin)** | Synchronisiert Strava-Aktivitätsnamen und -Beschreibungen mit Garmin Connect | https://github.com/therealkarle/Strava2Garmin |
 | **[SleepTempFinder](#sleeptempfinder)** | Schlaftemperatur (Und andere Raumdaten)-Korrelationsanalyse mit R | https://github.com/therealkarle/SleepTempFinder |
+| **[GarminLifestyleLoggingAnalysis](#garminlifestylelogginganalysis)** | R-Analyse von Garmin-Lifestyle-Aktivitäten und Schlafmetriken | https://github.com/therealkarle/GarminLifestyleLoggingAnalysis |
 | **[RuterfahrenIn_BatchDateien](#ruterfahrenin_batchdateien)** | Windows-Batch-Skripte für geplantes PC-Herunterfahren | https://github.com/therealkarle/RuterfahrenIn_BatchDateien |
 | **[ActivityWatch_StartUpScripts_FlorianZahl_launcher](#activitywatch_startupscripts_florianzahl_launcher)** | Startscript für meine ActivityWach Scrpits | https://github.com/therealkarle/ActivityWatch_StartUpScripts_FlorianZahl_launcher |
 | **[ActivityWatch_Android-Import](#activitywatch_android-import)** | Google Drive zu ActivityWatch-Sync für Android | https://github.com/therealkarle/ActivityWatch_Android-Import |
@@ -292,6 +293,22 @@ Analysiert Korrelationen zwischen Schlafzimmertemperatur und Luftfeuchtigkeit mi
 - Herzfrequenzvariabilität (HRV)-Analyse
 
 **Technologie:** R-Sprache
+
+---
+
+<a id="garminlifestylelogginganalysis"></a>
+### [GarminLifestyleLoggingAnalysis](https://github.com/therealkarle/GarminLifestyleLoggingAnalysis)
+
+Unabhängige R-Analyse zum Vergleich von Garmin-LifestyleLogging-Aktivitäten mit Schlafmetriken. Die Analyse ordnet Lifestyle-Einträge der entsprechenden Garmin-Schlafnacht zu und erstellt gerankte CSV-Tabellen sowie optional eine JSON-Ergebnisdatei.
+
+**Hauptfunktionen:**
+- Unterstützt ein extrahiertes Garmin-Exportverzeichnis, ZIP-Archiv oder eine direkte `LifestyleLogging.json`
+- Konfigurierbare Schlafmetriken, Aktivitätsausschlüsse, Datumsbereiche und Metrikrichtungen
+- Erstellt kombinierte und metrikspezifische Klassifikationen mit statistischer Signifikanz und Interpretation
+- Enthält eine Inventarisierung der verfügbaren Garmin-Metrik- und Aktivitätsfelder
+- Speichert jeden Analyse-Lauf in einem eigenen datierten Ausgabeordner
+
+**Technologie:** R mit YAML- und JSON-Konfigurationsunterstützung
 
 ---
 

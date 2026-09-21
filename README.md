@@ -25,6 +25,7 @@ Welcome! This repository showcases my privacy-focused nutrition and performance 
 | **[TourTimeCalulator](#tourtlocalulator)** | Tour time predictions with Strava API integration | https://github.com/therealkarle/TourTimeCalulator |
 | **[Strava2Garmin](#strava2garmin)** | Sync Strava activity names and descriptions to Garmin Connect | https://github.com/therealkarle/Strava2Garmin |
 | **[SleepTempFinder](#sleeptempfinder)** | Sleep environment correlation analysis using R | https://github.com/therealkarle/SleepTempFinder |
+| **[GarminLifestyleLoggingAnalysis](#garminlifestylelogginganalysis)** | Garmin lifestyle activity and sleep-metric analysis using R | https://github.com/therealkarle/GarminLifestyleLoggingAnalysis |
 | **[RuterfahrenIn_BatchDateien](#ruterfahrenin_batchdateien)** | Windows batch scripts for scheduled PC shutdown | https://github.com/therealkarle/RuterfahrenIn_BatchDateien |
 | **[ActivityWatch_StartUpScripts_FlorianZahl_launcher](#activitywatch_startupscripts_florianzahl_launcher)** | ActivityWatch startup orchestrator | https://github.com/therealkarle/ActivityWatch_StartUpScripts_FlorianZahl_launcher |
 | **[ActivityWatch_Android-Import](#activitywatch_android-import)** | Google Drive to ActivityWatch sync for Android | https://github.com/therealkarle/ActivityWatch_Android-Import |
@@ -292,6 +293,22 @@ Analyzes correlations between sleeping room temperature and humidity with sleep 
 - Heart rate variability (HRV) analysis
 
 **Technology:** R language
+
+---
+
+<a id="garminlifestylelogginganalysis"></a>
+### [GarminLifestyleLoggingAnalysis](https://github.com/therealkarle/GarminLifestyleLoggingAnalysis)
+
+Independent R analysis for comparing Garmin LifestyleLogging activities with sleep metrics. The analysis matches lifestyle entries with the corresponding Garmin sleep night and generates ranked CSV tables plus an optional JSON result file.
+
+**Key Features:**
+- Accepts an extracted Garmin export directory, ZIP archive, or direct `LifestyleLogging.json` file
+- Configurable sleep metrics, activity exclusions, date ranges, and metric directions
+- Reports combined and per-metric classifications with statistical significance and interpretation
+- Includes a metric and activity inventory for exploring available Garmin export fields
+- Keeps each analysis run in its own dated output directory
+
+**Technology:** R with YAML and JSON configuration support
 
 ---
 
