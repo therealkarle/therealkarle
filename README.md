@@ -12,7 +12,7 @@
 
 | App | Purpose | Live URL |
 |-----|---------|----------|
-| **[Fuel Lens](#fuel-lens)** | Nutrition analytics workspace for understanding dietary patterns, trends, and biometrics | https://fuellens.vercel.app/?view=dashboard |
+| **[Fuel Lens](#fuel-lens)** | Nutrition analytics workspace for understanding dietary patterns, trends, and biometrics | https://fuellens.vercel.app/ |
 | **[Fuel Calc](#fuel-calc)** | Glucose:Fructose ratio calculator for endurance sports fueling optimization | https://fuelcalc-glucosefructos-ratio-calulator.lovable.app/ |
 | **[Skinfold Caliper Body Fat Calculator](#skinfold-caliper-body-fat-calculator)** | Skinfold measurement calculator for body-fat estimates with Body Fat Calliper | https://skinfold-caliper-body-fat-calulator.vercel.app/ |
 
